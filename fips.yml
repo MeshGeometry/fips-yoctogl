@@ -1,0 +1,11 @@
+#
+# fips-yocto
+#
+---
+exports:
+    header-dirs: 
+      - ./yocto
+
+    modules:
+      ygl: .
+
