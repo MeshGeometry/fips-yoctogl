@@ -77,7 +77,7 @@ using namespace std::string_literals;
 #endif
 #endif
 
-#ifndef __clang_analyzer__
+//#ifndef __clang_analyzer__
 
 #define STB_IMAGE_IMPLEMENTATION
 #include "stb_image.h"
@@ -91,7 +91,7 @@ using namespace std::string_literals;
 #define TINYEXR_IMPLEMENTATION
 #include "tinyexr.h"
 
-#endif
+//#endif
 
 #ifndef _WIN32
 #pragma GCC diagnostic pop
